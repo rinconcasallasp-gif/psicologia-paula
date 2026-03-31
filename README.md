@@ -1,2 +1,92 @@
-# psicologia-paula
-"Página web profesional de psicología clínica creada para ofrecer acompañamiento emocional. Incluye información sobre servicios, sección personal, testimonios y contacto directo vía WhatsApp para agendar citas.
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paula Stefany Rincón Casallas | Psicóloga</title>
+
+<style>
+body{margin:0;font-family:'Segoe UI',sans-serif;background:#f4f7fb;color:#333;}
+header{
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('foto.png');
+background-size:cover;background-position:center;
+color:white;text-align:center;padding:120px 20px;}
+header h1{font-size:45px;}
+header p{font-size:20px;}
+
+.container{max-width:1100px;margin:auto;padding:60px 20px;}
+
+.section{margin-bottom:60px;}
+.cards{display:flex;gap:20px;flex-wrap:wrap;}
+.card{background:white;padding:25px;border-radius:15px;flex:1;min-width:250px;text-align:center;box-shadow:0 6px 15px rgba(0,0,0,0.1);}
+
+.about{display:flex;gap:30px;flex-wrap:wrap;align-items:center;}
+.about img{width:320px;border-radius:20px;}
+
+.quote{background:#6c9bd2;color:white;padding:30px;border-radius:15px;text-align:center;font-size:22px;}
+
+.btn{
+display:inline-block;
+background:#25D366;
+color:white;
+padding:15px 35px;
+border-radius:10px;
+text-decoration:none;
+font-size:18px;
+margin-top:15px;
+}
+
+.footer{text-align:center;padding:25px;background:#ddd;}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Un espacio seguro para sanar y crecer</h1>
+<p>Soy Paula Stefany Rincón Casallas, psicóloga clínica. Estoy aquí para acompañarte en tu proceso emocional.</p>
+<a class="btn" href="https://wa.me/573112437441" target="_blank">
+Agenda tu cita por WhatsApp
+</a>
+</header>
+
+<div class="container">
+
+<div class="section">
+<h2>Servicios</h2>
+<div class="cards">
+<div class="card">Ansiedad y estrés</div>
+<div class="card">Depresión</div>
+<div class="card">Bienestar emocional</div>
+</div>
+</div>
+
+<div class="section about">
+<img src="foto.png">
+<div>
+<h2>Sobre mí</h2>
+<p>Soy psicóloga clínica comprometida con tu bienestar emocional. Te ofrezco un espacio seguro, con empatía y respeto, donde podrás expresarte libremente.</p>
+<p>Mi objetivo es ayudarte a encontrar equilibrio, tranquilidad y herramientas para afrontar tu vida con mayor seguridad.</p>
+</div>
+</div>
+
+<div class="section quote">
+“No tienes que poder con todo. Pedir ayuda también es un acto de valentía.”
+</div>
+
+<div class="section" style="text-align:center;">
+<h2>Contáctame</h2>
+<p>📞 311 243 7441</p>
+<a class="btn" href="https://wa.me/573112437441">
+Escríbeme por WhatsApp
+</a>
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 Paula Stefany Rincón Casallas | Psicología Clínica
+</div>
+
+</body>
+</html>
